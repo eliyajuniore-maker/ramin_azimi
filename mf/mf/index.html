@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MF | رامین عظیمی — موسیقی، استودیو و تتو</title>
+<meta name="description" content="MF؛ دنیای رامین عظیمی. رپ، استودیو ضبط حرفه‌ای و تتو. بدون قانون، فقط هنر.">
+<meta name="theme-color" content="#0b0b0c">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@400;500;600&family=Vazirmatn:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+:root{--or:#ff6a13;--or2:#ff8a3d;--bg:#0b0b0c;--card:#141415;--line:#2a2a2d;--tx:#f4f4f4;--mut:#9b9ba1;--a:'Anton','Oswald',sans-serif;--o:'Oswald','Vazirmatn',sans-serif;
+--cut:polygon(14px 0,100% 0,100% calc(100% - 14px),calc(100% - 14px) 100%,0 100%,0 14px)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{background:var(--bg);color:var(--tx);font-family:'Vazirmatn',sans-serif;line-height:1.9;overflow-x:hidden;padding-bottom:env(safe-area-inset-bottom)}
+img{max-width:100%;display:block}a{color:inherit;text-decoration:none}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.07;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E")}
+section,header,footer,nav{position:relative;z-index:1}
+.wrap{width:min(1200px,92%);margin:auto}
+.en{font-family:var(--o);letter-spacing:.3em;text-transform:uppercase;direction:ltr}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.7rem;padding:.95rem 1.9rem;clip-path:var(--cut);font-family:var(--o);font-weight:500;letter-spacing:.12em;text-transform:uppercase;font-size:.95rem;cursor:pointer;border:0;background:var(--or);color:#0b0b0c;transition:.25s;direction:ltr}
+.btn:hover{background:#fff;transform:translateY(-2px)}
+.btn.ghost{background:#fff;color:#0b0b0c}.btn.ghost:hover{background:var(--or)}
+.sh{margin-bottom:2.4rem}
+.sh small{display:flex;align-items:center;gap:.8rem;color:var(--or);font-family:var(--o);letter-spacing:.3em;direction:ltr;font-size:.85rem}
+.sh small::after{content:"";height:2px;width:70px;background:linear-gradient(90deg,var(--or),transparent)}
+.sh h2{font-family:var(--a);font-weight:400;font-size:clamp(2.6rem,7vw,5rem);line-height:1;text-transform:uppercase;direction:ltr;text-align:left;margin:.6rem 0}
+.sh h2 em{font-style:normal;color:transparent;-webkit-text-stroke:2px var(--or)}
+.sh p{color:var(--mut);max-width:560px}
+.pad{padding:clamp(70px,10vw,120px) 0}
+.slash{position:absolute;pointer-events:none;width:14px;height:140%;background:var(--or);transform:rotate(28deg);opacity:.9;z-index:-1}
+
+/* nav */
+nav{position:fixed;inset:0 0 auto 0;z-index:50;padding-top:env(safe-area-inset-top);background:rgba(11,11,12,.8);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.07)}
+nav .in{display:flex;align-items:center;justify-content:space-between;height:70px;gap:1rem}
+.lg{height:52px;width:auto}
+.links{display:flex;gap:1.5rem;font-family:var(--o);letter-spacing:.12em;font-size:.82rem;text-transform:uppercase;direction:ltr}
+.links a{padding:.3rem 0;border-bottom:2px solid transparent;color:#ddd;transition:.2s}
+.links a:hover,.links a.on{color:var(--or);border-color:var(--or)}
+.soc{display:flex;gap:1.1rem;font-size:1.1rem}.soc a:hover{color:var(--or)}
+.burger{display:none;background:none;border:0;color:#fff;font-size:1.5rem;cursor:pointer}
+@media(max-width:1020px){.burger{display:block}.nav-soc{display:none}
+.links{position:fixed;inset:calc(70px + env(safe-area-inset-top)) 0 auto 0;background:#0d0d0e;flex-direction:column;gap:0;padding:.5rem 6%;border-bottom:2px solid var(--or);transform:translateY(-130%);transition:.35s;direction:rtl;visibility:hidden;font-size:1rem}
+.links.open{transform:none;visibility:visible}.links a{padding:1rem 0;border-bottom:1px solid var(--line)}}
+
+/* hero */
+.hero{min-height:100svh;padding:110px 0 0;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;background:radial-gradient(800px 600px at 78% 40%,rgba(255,106,19,.18),transparent 65%)}
+.hero .slash:nth-of-type(1){right:34%;top:-10%}.hero .slash:nth-of-type(2){left:-3%;bottom:-40%;width:90px;opacity:.15}
+.hgrid{display:grid;grid-template-columns:1.05fr .95fr;gap:3rem;align-items:center;direction:ltr;padding-bottom:3rem}
+.htxt .en{color:var(--or);font-size:.85rem}
+.big{font-family:var(--a);font-size:clamp(3.4rem,9.5vw,8rem);line-height:.95;text-transform:uppercase;margin:1rem 0}
+.big span{color:transparent;-webkit-text-stroke:2px var(--or);display:block}
+.htxt p{direction:rtl;text-align:left;color:#d6d6d6;max-width:470px;margin-bottom:1.8rem}
+.cta{display:flex;gap:1rem;flex-wrap:wrap}
+.poster{position:relative;max-width:480px;margin-inline:auto;width:100%}
+.poster::before{content:"";position:absolute;inset:18px -18px -18px 18px;border:2px solid var(--or);clip-path:var(--cut)}
+.poster img{position:relative;width:100%;aspect-ratio:3/4;object-fit:cover;clip-path:var(--cut);box-shadow:0 30px 80px rgba(0,0,0,.6)}
+.poster .tagc{position:absolute;bottom:-14px;left:-10px;background:var(--or);color:#0b0b0c;padding:.4rem 1.1rem;font-family:var(--a);letter-spacing:.05em;transform:skew(-10deg);z-index:2}
+.marq{background:var(--or);color:#0b0b0c;overflow:hidden;transform:rotate(-1.2deg) scale(1.03);white-space:nowrap;direction:ltr}
+.marq div{display:inline-block;padding:.7rem 0;font-family:var(--a);font-size:1.3rem;letter-spacing:.08em;animation:mq 26s linear infinite}
+.marq i{margin:0 1.4rem;font-size:.8rem}
+@keyframes mq{to{transform:translateX(-50%)}}
+@media(max-width:900px){.hgrid{grid-template-columns:1fr}.poster{max-width:360px;order:-1}}
+
+/* about */
+.about{display:grid;grid-template-columns:.9fr 1.1fr;gap:3.5rem;align-items:center}
+.pf{position:relative}.pf img{aspect-ratio:4/5;width:100%;object-fit:cover;object-position:top;clip-path:var(--cut);filter:contrast(1.05)}
+.pf::after{content:"RAMIN AZIMI";position:absolute;bottom:14px;right:-1.2rem;writing-mode:vertical-rl;font-family:var(--a);color:var(--or);letter-spacing:.25em;font-size:1.1rem}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:2rem}
+.stats div{background:var(--card);padding:1.1rem;text-align:center;border-bottom:3px solid var(--or)}
+.stats strong{display:block;font-family:var(--a);font-weight:400;font-size:2.2rem;color:var(--or);line-height:1.2}.stats span{font-size:.82rem;color:var(--mut)}
+@media(max-width:820px){.about{grid-template-columns:1fr}.pf{max-width:360px}}
+
+/* music */
+.wave{display:flex;align-items:center;gap:3px;height:64px;margin-bottom:1.4rem;direction:ltr}
+.wave span{flex:1;background:var(--or);min-width:2px;height:18%;transition:height .2s;opacity:.85}
+.wave.live span{animation:eq 1s ease-in-out infinite alternate}
+@keyframes eq{to{height:var(--h2)}}
+.player{display:flex;align-items:center;gap:1.1rem;background:var(--card);border-left:4px solid var(--or);padding:1rem 1.3rem;direction:ltr;flex-wrap:wrap}
+.play{width:54px;height:54px;border:0;background:var(--or);color:#0b0b0c;font-size:1.1rem;cursor:pointer;flex:none;clip-path:var(--cut);transition:.2s}.play:hover{background:#fff}
+.pinfo{flex:1;min-width:180px}.pinfo b{font-family:var(--o);font-weight:500;letter-spacing:.06em;text-transform:uppercase}
+.bar{height:5px;background:#2e2e32;margin-top:.55rem;cursor:pointer;position:relative}.bar i{position:absolute;left:0;top:0;bottom:0;width:0;background:var(--or)}
+.time{font-family:var(--o);font-size:.85rem;color:var(--mut);min-width:96px;text-align:right}
+.vol{display:flex;align-items:center;gap:.5rem;color:var(--mut)}.vol input{width:90px;accent-color:var(--or)}
+.tracks{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-top:1.8rem}
+.trk{background:var(--card);overflow:hidden;cursor:pointer;transition:.25s;direction:ltr;border-bottom:3px solid transparent}
+.trk:hover,.trk.on{border-color:var(--or);transform:translateY(-5px)}
+.cv{position:relative;aspect-ratio:1;overflow:hidden}.cv img{width:100%;height:100%;object-fit:cover;object-position:top;filter:grayscale(.5);transition:.4s}
+.trk:hover img,.trk.on img{filter:none;transform:scale(1.07)}
+.cv i{position:absolute;inset:0;margin:auto;width:54px;height:54px;background:var(--or);color:#0b0b0c;display:grid;place-items:center;opacity:0;transition:.25s;clip-path:var(--cut)}
+.trk:hover .cv i,.trk.on .cv i{opacity:1}
+.trk p{padding:.8rem 1rem;font-family:var(--o);letter-spacing:.06em;text-transform:uppercase}.trk small{display:block;color:var(--or);font-size:.72rem}
+@media(max-width:820px){.tracks{grid-template-columns:repeat(2,1fr)}.vol{display:none}}
+
+/* studio */
+.studio{display:grid;grid-template-columns:1.1fr 1fr;gap:3rem;align-items:start}
+.sbox{position:relative;margin-bottom:1.6rem}.sbox img{width:100%;aspect-ratio:4/3;object-fit:cover;clip-path:var(--cut)}
+.sbox::before{content:"";position:absolute;inset:14px 14px -14px -14px;border:2px solid var(--or);clip-path:var(--cut)}.sbox img{position:relative}
+.checks{list-style:none;display:grid;gap:.7rem;margin-top:1.4rem}.checks li{display:flex;gap:.8rem;align-items:center}.checks i{color:var(--or);font-size:1.15rem}
+.form{background:var(--card);padding:1.8rem;display:grid;gap:1rem;border-top:4px solid var(--or)}
+.form h3{font-weight:900;font-size:1.25rem}
+label{font-size:.85rem;color:var(--mut);display:block;margin-bottom:.3rem}
+input,select,textarea{width:100%;background:#0c0c0d;border:1px solid var(--line);color:#fff;padding:.8rem 1rem;font:inherit;transition:.2s;border-radius:0}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--or);box-shadow:0 0 0 3px rgba(255,106,19,.2)}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.sum{display:flex;justify-content:space-between;align-items:center;border-top:1px dashed var(--line);padding-top:1rem}.sum b{color:var(--or);font-size:1.3rem}
+.note{font-size:.8rem;color:var(--mut)}
+@media(max-width:900px){.studio{grid-template-columns:1fr}}@media(max-width:480px){.row{grid-template-columns:1fr}}
+
+/* gallery */
+.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+.gal figure{position:relative;overflow:hidden;cursor:zoom-in;background:#111;aspect-ratio:4/5;clip-path:var(--cut)}
+.gal figure:nth-child(1),.gal figure:nth-child(4){grid-row:span 1}
+.gal img{width:100%;height:100%;object-fit:cover;transition:.5s;filter:grayscale(.25)}
+.gal figure:hover img{transform:scale(1.07);filter:none}
+.gal figcaption{position:absolute;inset:auto 0 0;padding:2rem 1rem .8rem;background:linear-gradient(transparent,rgba(0,0,0,.92));font-family:var(--a);letter-spacing:.1em;direction:ltr;transform:translateY(100%);transition:.3s;color:var(--or)}
+.gal figure:hover figcaption{transform:none}
+@media(max-width:820px){.gal{grid-template-columns:repeat(2,1fr)}}@media(max-width:480px){.gal{gap:.6rem}}
+.lb{position:fixed;inset:0;background:rgba(0,0,0,.95);z-index:100;display:none;place-items:center;padding:4%}.lb.show{display:grid}.lb img{max-height:88vh;max-width:100%}
+.lb button{position:absolute;top:calc(16px + env(safe-area-inset-top));right:20px;background:none;border:0;color:#fff;font-size:2rem;cursor:pointer}
+
+/* book + footer */
+.book{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:stretch}
+.bimg{position:relative;min-height:520px;overflow:hidden;clip-path:var(--cut)}.bimg img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.bimg::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(11,11,12,.7),transparent 50%)}
+@media(max-width:900px){.book{grid-template-columns:1fr}.bimg{min-height:360px;order:2}}
+footer{margin-top:40px;padding:70px 0 30px;background:linear-gradient(transparent,#070708);border-top:1px solid var(--line)}
+.cgrid{display:flex;justify-content:space-between;gap:2rem;flex-wrap:wrap;align-items:center}
+.big-soc{display:flex;gap:.8rem;margin-top:1.2rem;flex-wrap:wrap}.big-soc a{width:52px;height:52px;background:var(--card);display:grid;place-items:center;font-size:1.3rem;clip-path:var(--cut);transition:.25s}.big-soc a:hover{background:var(--or);color:#0b0b0c;transform:translateY(-3px)}
+.copy{margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;color:var(--mut);font-size:.8rem}
+.reveal{opacity:0;transform:translateY(28px);transition:.8s}.reveal.in{opacity:1;transform:none}
+.toast{position:fixed;bottom:24px;left:50%;transform:translate(-50%,140px);background:var(--or);color:#0b0b0c;font-weight:600;padding:.9rem 1.4rem;z-index:200;transition:.4s}.toast.show{transform:translate(-50%,0)}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap in">
+  <a href="#home" aria-label="MF"><img class="lg" src="img/logo.png" alt="MF"></a>
+  <div class="links" id="links">
+    <a href="#home" class="on">Home</a><a href="#about">About</a><a href="#music">MF Music</a><a href="#studio">Studio</a><a href="#gallery">Tattoo Gallery</a><a href="#book">Book a Tattoo</a><a href="#contact">Contact</a>
+  </div>
+  <div class="soc nav-soc">
+    <a data-s="instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+    <a data-s="youtube" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+    <a data-s="spotify" aria-label="Spotify"><i class="fa-brands fa-spotify"></i></a>
+  </div>
+  <button class="burger" id="burger" aria-label="منو"><i class="fa-solid fa-bars"></i></button>
+</div></nav>
+
+<header class="hero" id="home">
+  <i class="slash"></i><i class="slash"></i>
+  <div class="wrap hgrid">
+    <div class="htxt">
+      <div class="en">Ramin Azimi — Rapper . Tattoo Artist</div>
+      <h1 class="big">No Rules.<span>Just Art.</span></h1>
+      <p>صدای خیابون، هنر روی پوست، موسیقی بدون مرز. دنیای رامین عظیمی؛ رپ، استودیو و تتو در یک مکان.</p>
+      <div class="cta">
+        <a href="#music" class="btn"><i class="fa-solid fa-play"></i> MF Music</a>
+        <a href="#book" class="btn ghost"><i class="fa-solid fa-pen-nib"></i> Book a Tattoo</a>
+      </div>
+    </div>
+    <div class="poster"><img src="img/ramin.jpg" alt="رامین عظیمی — MF"><span class="tagc">MF CREW</span></div>
+  </div>
+  <div class="marq"><div id="mq"></div></div>
+</header>
+
+<section class="pad" id="about"><div class="wrap about">
+  <div class="reveal pf"><img src="img/p3.jpg" alt="رامین عظیمی"></div>
+  <div class="reveal">
+    <div class="sh"><small>01 / ABOUT</small><h2>About <em>MF</em></h2></div>
+    <p style="margin-bottom:1rem"><strong>رامین عظیمی</strong>، خواننده‌ی رپ و تتوکار، پشت برند MF است. MF یک سبک زندگیه؛ ترکیبی از موسیقی واقعی، هنر روی پوست و فرهنگ خیابان.</p>
+    <p style="color:var(--mut)">اینجا هم آهنگ می‌شنوی، هم استودیو رزرو می‌کنی و هم برای تتو وقت می‌گیری؛ همه چیز یک‌جا، بدون واسطه.</p>
+    <div class="stats">
+      <div><strong data-n="SONGS"></strong><span>آهنگ منتشر شده</span></div>
+      <div><strong data-n="YEARS"></strong><span>سال تجربه</span></div>
+      <div><strong data-n="TATS"></strong><span>تتوی اجرا شده</span></div>
+    </div>
+  </div>
+</div></section>
+
+<section class="pad" id="music"><div class="wrap reveal">
+  <div class="sh"><small>02 / MUSIC</small><h2>MF <em>Music</em></h2><p>اینجا صدای واقعی رو می‌شنوی؛ آهنگ‌های جدید، ترک‌های خفن و فضای خاص رپ.</p></div>
+  <div class="wave" id="wave" aria-hidden="true"></div>
+  <div class="player">
+    <button class="play" id="pp" aria-label="پخش"><i class="fa-solid fa-play"></i></button>
+    <div class="pinfo"><b id="pt">MF</b><div class="bar" id="bar"><i id="fill"></i></div></div>
+    <div class="time" id="tm">0:00 / 0:00</div>
+    <div class="vol"><i class="fa-solid fa-volume-high"></i><input type="range" id="vol" min="0" max="1" step=".05" value=".8" aria-label="صدا"></div>
+  </div>
+  <div class="tracks" id="tracks"></div>
+</div></section>
+
+<section class="pad" id="studio"><div class="wrap studio">
+  <div class="reveal">
+    <div class="sh"><small>03 / STUDIO</small><h2>Recording <em>Studio</em></h2></div>
+    <div class="sbox"><img id="simg" src="https://images.pexels.com/photos/5650547/pexels-photo-5650547.jpeg?auto=compress&cs=tinysrgb&w=1000" data-fb="img/p2.jpg" alt="استودیو ضبط MF"></div>
+    <p><strong>سالن استودیو مجهز با بهترین امکانات</strong><br><span style="color:var(--mut)">برای ضبط، میکس و مسترینگ</span></p>
+    <ul class="checks">
+      <li><i class="fa-solid fa-square-check"></i>اتاق آکوستیک حرفه‌ای</li>
+      <li><i class="fa-solid fa-square-check"></i>میکس و مسترینگ</li>
+      <li><i class="fa-solid fa-square-check"></i>تجهیزات مدرن</li>
+    </ul>
+  </div>
+  <form class="form reveal" id="sform" novalidate>
+    <h3><i class="fa-solid fa-microphone-lines" style="color:var(--or)"></i> رزرو استودیو</h3>
+    <div><label>نام و نام خانوادگی</label><input name="n" required autocomplete="name"></div>
+    <div><label>شماره تماس</label><input name="p" type="tel" inputmode="tel" required autocomplete="tel" placeholder="09xxxxxxxxx"></div>
+    <div><label>نوع خدمت</label><select id="svc"></select></div>
+    <div class="row"><div><label>تاریخ</label><input type="date" name="d" required></div><div><label>ساعت شروع</label><input type="time" name="t" required></div></div>
+    <div><label>مدت (ساعت)</label><select id="hrs"><option>1</option><option>2</option><option>3</option><option>4</option><option>6</option><option>8</option></select></div>
+    <div class="sum"><span>مبلغ قابل پرداخت</span><b id="price">—</b></div>
+    <button type="submit" class="btn"><i class="fa-solid fa-credit-card"></i> Pay &amp; Reserve</button>
+    <p class="note"><i class="fa-solid fa-lock"></i> پس از ثبت، به درگاه پرداخت امن منتقل می‌شوید.</p>
+  </form>
+</div></section>
+
+<section class="pad" id="gallery"><div class="wrap">
+  <div class="sh reveal"><small>04 / GALLERY</small><h2>Tattoo <em>Gallery</em></h2><p>نمونه‌کارهای واقعی از سبک‌های مختلف.</p></div>
+  <div class="gal reveal" id="gal"></div>
+</div></section>
+
+<section class="pad" id="book"><div class="wrap book">
+  <form class="form reveal" id="tform" novalidate>
+    <div class="sh" style="margin:0"><small>05 / BOOKING</small><h2 style="font-size:clamp(2.2rem,5vw,3.6rem)">Book a <em>Tattoo</em></h2></div>
+    <p class="note" style="font-size:.95rem">برای رزرو وقت، فرم را تکمیل کنید.</p>
+    <div><label>نام و نام خانوادگی</label><input name="n" required autocomplete="name"></div>
+    <div><label>شماره تماس</label><input name="p" type="tel" inputmode="tel" required autocomplete="tel"></div>
+    <div><label>انتخاب سبک تتو</label><select name="s" id="tstyle"></select></div>
+    <div class="row"><div><label>تاریخ</label><input type="date" name="d" required></div><div><label>ساعت</label><input type="time" name="t" required></div></div>
+    <div><label>توضیحات بیشتر</label><textarea name="m" rows="4" placeholder="محل تتو، سایز، طرح مورد نظر..."></textarea></div>
+    <button type="submit" class="btn"><i class="fa-solid fa-paper-plane"></i> Reserve Now</button>
+  </form>
+  <div class="bimg reveal"><img src="img/tattoo2.jpg" alt="نمونه تتو"></div>
+</div></section>
+
+<footer id="contact"><div class="wrap">
+  <div class="cgrid">
+    <div class="sh" style="margin:0"><small>06 / CONTACT</small><h2 style="margin-bottom:.2rem">Contact <em>Us</em></h2><p>با ما در ارتباط باشید</p><div class="big-soc" id="bsoc"></div></div>
+    <img src="img/logo.png" alt="MF" style="height:150px">
+  </div>
+  <div class="copy"><span>© 2026 MF Studio. All Rights Reserved.</span><span class="en" style="letter-spacing:.12em">#MF #Music #Tattoo #Art</span></div>
+</div></footer>
+
+<div class="lb" id="lb"><button aria-label="بستن"><i class="fa-solid fa-xmark"></i></button><img alt=""></div>
+<div class="toast" id="toast"></div>
+<audio id="au" preload="metadata"></audio>
+
+<script>
+/* ============ اینجا همه اطلاعات رو عوض کن ============ */
+const CONFIG={
+  paymentUrl:"https://YOUR-PAYMENT-GATEWAY-LINK",   // لینک درگاه پرداخت
+  whatsapp:"989120000000",                           // شماره واتساپ بدون + و صفر اول
+  social:{instagram:"https://instagram.com/",youtube:"https://youtube.com/",spotify:"https://open.spotify.com/",telegram:"https://t.me/",whatsapp:"https://wa.me/989120000000"},
+  stats:{SONGS:"00",YEARS:"00",TATS:"000+"},
+  tracks:[ // src = فایل آهنگ در پوشه audio
+    {t:"No Rules",    src:"audio/no-rules.mp3",    cover:"img/p1.jpg"},
+    {t:"Street Dream",src:"audio/street-dream.mp3",cover:"img/p2.jpg"},
+    {t:"Tattoo Mind", src:"audio/tattoo-mind.mp3", cover:"img/p4.jpg"},
+    {t:"Rap Life",    src:"audio/rap-life.mp3",    cover:"https://images.pexels.com/photos/10854610/pexels-photo-10854610.jpeg?auto=compress&cs=tinysrgb&w=600",fb:"img/logo.png"}
+  ],
+  services:[{n:"ضبط ووکال",p:0},{n:"ضبط + میکس",p:0},{n:"میکس و مسترینگ",p:0}], // قیمت هر ساعت (تومان)
+  tattooStyles:["رئالیسم","بلک‌ورک","مینیمال","لترینگ","طرح اختصاصی مشتری"],
+  gallery:[
+    {src:"img/tattoo1.jpg",c:"Icarus"},
+    {src:"img/tattoo2.jpg",c:"Angel & Devil"},
+    {src:"https://images.pexels.com/photos/18534798/pexels-photo-18534798.jpeg?auto=compress&cs=tinysrgb&w=800",c:"Arm Piece",fb:"img/p1.jpg"},
+    {src:"img/hand.jpg",c:"Hand Ink"},
+    {src:"https://images.pexels.com/photos/18534784/pexels-photo-18534784.jpeg?auto=compress&cs=tinysrgb&w=800",c:"Black Work",fb:"img/p4.jpg"},
+    {src:"img/p3.jpg",c:"MF Crew",fb:"img/p3.jpg"}
+  ]
+};
+/* ====================================================== */
+const $=s=>document.querySelector(s),fa=n=>n.replace(/\d/g,d=>'۰۱۲۳۴۵۶۷۸۹'[d]);
+const toast=m=>{const t=$('#toast');t.textContent=m;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),3200)};
+// هر عکس اینترنتی اگر لود نشد، خودکار با عکس محلی جایگزین می‌شود تا جایی خالی نماند
+document.addEventListener('error',e=>{const i=e.target;if(i.tagName==='IMG'&&!i.dataset.done){i.dataset.done=1;i.src=i.dataset.fb||'img/ramin.jpg'}},true);
+document.querySelectorAll('img[data-fb]').forEach(i=>{});
+
+$('#burger').onclick=()=>$('#links').classList.toggle('open');
+document.querySelectorAll('.links a').forEach(a=>a.onclick=()=>$('#links').classList.remove('open'));
+const secs=[...document.querySelectorAll('section,header')];
+addEventListener('scroll',()=>{let c='home';secs.forEach(s=>{if(scrollY+130>=s.offsetTop)c=s.id});document.querySelectorAll('.links a').forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+c))},{passive:true});
+document.querySelectorAll('[data-s]').forEach(a=>a.href=CONFIG.social[a.dataset.s]);
+$('#bsoc').innerHTML=['instagram','youtube','spotify','telegram','whatsapp'].map(k=>`<a href="${CONFIG.social[k]}" target="_blank" rel="noopener" aria-label="${k}"><i class="fa-brands fa-${k}"></i></a>`).join('');
+document.querySelectorAll('[data-n]').forEach(e=>e.textContent=CONFIG.stats[e.dataset.n]);
+const m1='Music<i class="fa-solid fa-slash"></i>Ink<i class="fa-solid fa-slash"></i>Culture<i class="fa-solid fa-slash"></i>No Rules<i class="fa-solid fa-slash"></i>Just Art<i class="fa-solid fa-slash"></i>';$('#mq').innerHTML=m1.repeat(8);
+
+const io=new IntersectionObserver(es=>es.forEach(e=>e.isIntersecting&&(e.target.classList.add('in'),io.unobserve(e.target))),{threshold:.1});
+document.querySelectorAll('.reveal').forEach(e=>io.observe(e));
+
+const au=$('#au'),pp=$('#pp'),wave=$('#wave');let cur=0;
+wave.innerHTML=Array.from({length:70},(_,i)=>`<span style="--h2:${25+Math.abs(Math.sin(i*1.7))*75}%;animation-delay:${(i%9)*-.11}s"></span>`).join('');
+$('#tracks').innerHTML=CONFIG.tracks.map((k,i)=>`<div class="trk" data-i="${i}"><div class="cv"><img src="${k.cover}" data-fb="${k.fb||'img/ramin.jpg'}" alt="${k.t}" loading="lazy"><i class="fa-solid fa-play"></i></div><p>${k.t}<small>MF</small></p></div>`).join('');
+function load(i,play){cur=i;au.src=CONFIG.tracks[i].src;$('#pt').textContent='MF - '+CONFIG.tracks[i].t;document.querySelectorAll('.trk').forEach((e,j)=>e.classList.toggle('on',j===i));if(play)au.play().catch(()=>toast('فایل آهنگ پیدا نشد'))}
+document.querySelectorAll('.trk').forEach(e=>e.onclick=()=>load(+e.dataset.i,true));
+pp.onclick=()=>au.paused?au.play().catch(()=>toast('فایل آهنگ پیدا نشد')):au.pause();
+au.onplay=()=>{pp.innerHTML='<i class="fa-solid fa-pause"></i>';wave.classList.add('live')};
+au.onpause=()=>{pp.innerHTML='<i class="fa-solid fa-play"></i>';wave.classList.remove('live')};
+au.onended=()=>load((cur+1)%CONFIG.tracks.length,true);
+const f=s=>isFinite(s)?Math.floor(s/60)+':'+String(Math.floor(s%60)).padStart(2,'0'):'0:00';
+au.ontimeupdate=()=>{$('#fill').style.width=(au.currentTime/au.duration*100||0)+'%';$('#tm').textContent=f(au.currentTime)+' / '+f(au.duration)};
+$('#bar').onclick=e=>{const r=e.currentTarget.getBoundingClientRect();au.currentTime=(e.clientX-r.left)/r.width*au.duration||0};
+$('#vol').oninput=e=>au.volume=e.target.value;au.volume=.8;load(0,false);
+
+$('#svc').innerHTML=CONFIG.services.map((s,i)=>`<option value="${i}">${s.n}</option>`).join('');
+const calc=()=>{const p=CONFIG.services[$('#svc').value].p*$('#hrs').value;$('#price').textContent=p?fa(p.toLocaleString('en'))+' تومان':'به‌زودی'};
+$('#svc').onchange=$('#hrs').onchange=calc;calc();
+const today=new Date().toISOString().split('T')[0];document.querySelectorAll('input[type=date]').forEach(d=>d.min=today);
+function ok(form){const bad=[...form.querySelectorAll('[required]')].filter(i=>!i.value.trim());form.querySelectorAll('[required]').forEach(i=>i.style.borderColor=i.value.trim()?'':'var(--or)');if(bad.length){toast('لطفا فیلدهای ضروری را پر کنید');bad[0].focus();return false}return true}
+$('#sform').onsubmit=e=>{e.preventDefault();if(!ok(e.target))return;toast('در حال انتقال به درگاه پرداخت...');setTimeout(()=>location.href=CONFIG.paymentUrl,900)};
+
+$('#gal').innerHTML=CONFIG.gallery.map(g=>`<figure><img src="${g.src}" data-fb="${g.fb||'img/ramin.jpg'}" alt="${g.c}" loading="lazy"><figcaption>${g.c}</figcaption></figure>`).join('');
+const lb=$('#lb');document.querySelectorAll('.gal figure').forEach(f=>f.onclick=()=>{lb.querySelector('img').src=f.querySelector('img').src;lb.classList.add('show')});
+lb.onclick=()=>lb.classList.remove('show');addEventListener('keydown',e=>e.key==='Escape'&&lb.classList.remove('show'));
+
+$('#tstyle').innerHTML=CONFIG.tattooStyles.map(s=>`<option>${s}</option>`).join('');
+$('#tform').onsubmit=e=>{e.preventDefault();if(!ok(e.target))return;const d=new FormData(e.target);
+const m=encodeURIComponent(`رزرو تتو\nنام: ${d.get('n')}\nتلفن: ${d.get('p')}\nسبک: ${d.get('s')}\nتاریخ: ${d.get('d')} ساعت ${d.get('t')}\nتوضیحات: ${d.get('m')||'-'}`);
+window.open(`https://wa.me/${CONFIG.whatsapp}?text=${m}`,'_blank')};
+</script>
+</body>
+</html>
